@@ -1,5 +1,5 @@
 {% set name = "geohexgrid" %}
-{% set version = "2.1.2" %}
+{% set version = "3.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 45902dc3c18720724f57dfa83371f549ad84768dafed2f9c3ce5b562c639f127
+  sha256: 3b03963e86d30fc5712f1aedea654ac0df77465459c5e0b63cfc29e321833601
 
 build:
   noarch: python
