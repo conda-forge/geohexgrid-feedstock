@@ -23,6 +23,9 @@ requirements:
   run:
     - python >={{ python_min }}
     - geopandas >=0.11.1
+    - pandas >=2
+    - numpy
+    - shapely
 
 test:
   imports:
