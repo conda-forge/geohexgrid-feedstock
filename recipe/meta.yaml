@@ -44,7 +44,7 @@ test:
     - python -m pytest tests
 
 about:
-  home: https://github.com/mrcagney/geohexgrid
+  home: https://codeberg.org/araichev/geohexgrid
   summary: A Python library for making geographic flat-top hexagon grids like QGIS's `create grid` function
   license: MIT
   license_file: LICENSE.txt
