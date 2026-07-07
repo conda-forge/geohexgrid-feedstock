@@ -1,5 +1,5 @@
 {% set name = "geohexgrid" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 148a69cadbbda8821b9c5d65f88b616e7c3699eaf95464d5944f7cb8197e42ed
+  sha256: f2eceae5f8fa36e5922f9632ffecf33b52961f70decbcd36a0f62d23cf105936
 
 build:
   noarch: python
@@ -44,7 +44,7 @@ test:
     - python -m pytest tests
 
 about:
-  home: https://github.com/mrcagney/geohexgrid
+  home: https://codeberg.org/araichev/geohexgrid
   summary: A Python library for making geographic flat-top hexagon grids like QGIS's `create grid` function
   license: MIT
   license_file: LICENSE.txt
